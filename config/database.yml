@@ -85,8 +85,8 @@ test:
 production:
   <<: *default
   database: Chessy_production
-  # username: nomster
-  # password: <%= ENV['NOMSTER_DATABASE_PASSWORD'] %>
+  # username: Chessy
+  # password: <%= ENV['CHESSY_DATABASE_PASSWORD'] %>
  
  
  
